@@ -7,20 +7,24 @@ Repositório para armazenar resumos sobre Git e GitHub
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 
 ## 💻 Resumos
-- Criando um Repositório
+- **Criando um Repositório**
 ```
 mkdir nomedorepositorio //cria repositório
 cd nomedorepositorio  //entra no repositório
 git init   //inicializa o repositório
 cd .git   //verificação
 ```
+- **Criando arquivo**
+```
+touch nomearquivo  //usado para criar um arquivo vazio ou para atualizar a data e hora de modificação de um arquivo existente
+```
 
-- Clonando um Repositório
+- **Clonando um Repositório**
 ```
 git clone (https or ssh do repositório)
 ```
 
-- Outros comandos
+- **Outros comandos**
 ```
 cd pathdorepositorio  //entra no repositório
 cd .git  //navega para a pasta .git, onde tem subpastas e arquivos que contreolam o estado do repositório.
@@ -32,18 +36,19 @@ cat config  //exibe o que contém nas configurações do repositório
 ```
 git status //Mostra o estado atual do repositório, incluindo arquivos modificados, adicionados, ou não rastreados
 ```
-```
-git add  nomerepositorio  //adiciona o arquivo
-git add .   //adiciona todos os arquivos
-```
 
-- Repositório Remoto
+
+- **Repositório Remoto**
 ```
 git remote add origin (https do repositório) //adiciona a um repositório remoto 
 git remote -v  //verifica o path do repositório remoto
 ```
 
-- Commit 
+- **Commit**
+```
+git add  nomerepositorio  //adiciona o arquivo
+git add .   //adiciona todos os arquivos
+```
 ```
 git commit -m "Mensagem explicativa do commit"  //salva as alterações ou mudanças (nos arquivos versionados) no histórico de um repositório Git
 ```
@@ -51,11 +56,9 @@ git commit -m "Mensagem explicativa do commit"  //salva as alterações ou mudan
 git log  //exibe o histórico de commits
 git reflog  //histórico detalhado
 ```
-```
-touch nomearquivo  //usado para criar um arquivo vazio ou para atualizar a data e hora de modificação de um arquivo existente
-```
 
-- Desfazendo alterações no repositório local
+
+- **Desfazendo alterações no repositório local**
 ```
 git restore   //descarta última mudança feita no arquivo
 ```
@@ -71,10 +74,9 @@ git reset nomedoarquivo  //remove o arquivo da área de preparação
 git restore --staged  //remove também
 ```
 
-- Enviando e baixando alterações com o Repositório Remoto
+- **Enviando alterações para Repositório Remoto**
 ```
 git remote add origin (https or ssh)
 git branch -M main   //se -> master
 git push -u origin main   //envia o branch main para o repositório remoto origin
 ```
-
