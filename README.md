@@ -3,8 +3,8 @@
 Repositório para armazenar resumos sobre Git e GitHub
 
 ## 📔documentação
-[Documentação GitHub](https://docs.github.com/pt)  
-[Documentação Git](https://git-scm.com/docs/git/pt_BR)
+- [Documentação GitHub](https://docs.github.com/pt)  
+- [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 
 ## 💻 Resumos
 - Criando um Repositório
