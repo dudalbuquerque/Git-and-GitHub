@@ -3,7 +3,7 @@
 Repositório para armazenar resumos sobre Git e GitHub
 
 ## 📔documentação
-[Documentação GitHub](https://docs.github.com/pt)
+[Documentação GitHub](https://docs.github.com/pt)  
 [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 
 ## 💻 Resumos
@@ -66,7 +66,7 @@ esc + : + w //para escrever
 esc + : + q //para sair
 ```
 ```
-git reset (--soft or --mixed or --hard) hashing do commit 
+git reset (--soft or --mixed or --hard) (hashing do commit)
 git reset nomedoarquivo  //remove o arquivo da área de preparação
 git restore --staged  //remove também
 ```
