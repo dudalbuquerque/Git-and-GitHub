@@ -71,4 +71,10 @@ git reset nomedoarquivo  //remove o arquivo da área de preparação
 git restore --staged  //remove também
 ```
 
+- Enviando e baixando alterações com o Repositório Remoto
+```
+git remote add origin (https or ssh)
+git branch -M main   //se -> master
+git push -u origin main   //envia o branch main para o repositório remoto origin
+```
 
