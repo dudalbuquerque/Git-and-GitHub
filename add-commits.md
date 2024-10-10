@@ -10,6 +10,3 @@ git commit -m "Mensagem explicativa do commit"  //salva as alterações ou mudan
 git log  //exibe o histórico de commits
 git reflog  //histórico detalhado
 ```
-
-***
-Made with 🤍 by evas(dudalbuquerque)
