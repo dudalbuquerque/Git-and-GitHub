@@ -7,15 +7,6 @@ Repositório para armazenar resumos sobre Git e GitHub
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 
 
-- **Enviando alterações para Repositório Remoto**
-```
-git remote add origin (https or ssh)
-git branch -M main   //se -> master
-git push -u origin main   //envia o branch main para o repositório remoto origin
-git pull  //atualizar o repositório local com as alterações mais recentes do repositório remoto
-```
-
-
 - Outros comandos 
 ```
 git stash   //arquiva suas alterações não commitadas
