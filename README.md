@@ -46,19 +46,6 @@ git remote add origin (https do repositório) //adiciona a um repositório remot
 git remote -v  //verifica o path do repositório remoto
 ```
 
-- **Commit**
-```
-git add  nomerepositorio  //adiciona o arquivo
-git add .   //adiciona todos os arquivos
-```
-```
-git commit -m "Mensagem explicativa do commit"  //salva as alterações ou mudanças (nos arquivos versionados) no histórico de um repositório Git
-```
-```
-git log  //exibe o histórico de commits
-git reflog  //histórico detalhado
-```
-
 
 - **Desfazendo alterações no repositório local**
 ```
