@@ -1,0 +1,5 @@
+- **Repositório Remoto**
+```
+git remote add origin (https do repositório) //adiciona a um repositório remoto 
+git remote -v  //verifica o path do repositório remoto
+```
