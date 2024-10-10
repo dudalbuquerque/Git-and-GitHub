@@ -7,14 +7,6 @@ Repositório para armazenar resumos sobre Git e GitHub
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 
 
-
-- **Repositório Remoto**
-```
-git remote add origin (https do repositório) //adiciona a um repositório remoto 
-git remote -v  //verifica o path do repositório remoto
-```
-
-
 - **Desfazendo alterações no repositório local**
 ```
 git restore   //descarta última mudança feita no arquivo
