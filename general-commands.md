@@ -10,3 +10,7 @@ cat config  //exibe o que contém nas configurações do repositório
 ```
 git status //Mostra o estado atual do repositório, incluindo arquivos modificados, adicionados, ou não rastreados
 ```
+```
+code  //roda o código 
+code . //roda o código do arquivo que vc está
+```
