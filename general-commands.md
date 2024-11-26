@@ -14,3 +14,6 @@ git status //Mostra o estado atual do repositório, incluindo arquivos modificad
 code  //roda o código 
 code . //roda o código do arquivo que vc está
 ```
+```
+pwd //imprime diretório atual
+```
